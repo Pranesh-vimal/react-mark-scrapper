@@ -28,7 +28,7 @@ function Students() {
     }, [data, navigate]);
 
     return (
-        <div className="mx-5 my-5">
+        <div className="mx-5 my-5 pb-20">
             <h6 className="text-center font-bold my-2">Sheets</h6>
             <h6 className="text-center text-gray-500 text-sm">
                 Choose a sheet to fetch the results

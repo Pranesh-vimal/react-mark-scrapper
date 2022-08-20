@@ -18,7 +18,7 @@ function Marks() {
     }, [results, headings, navigate]);
 
     return (
-        <div className="mx-5 my-5">
+        <div className="mx-5 my-5 pb-20">
             <h6 className="text-center font-bold my-2">Marks</h6>
             <div className="grid grid-cols-1 md:grid-cols-3 text-center mb-5 print:hidden">
                 <div></div>

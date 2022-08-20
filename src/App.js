@@ -4,6 +4,7 @@ import { Route, Routes, Navigate } from "react-router-dom";
 import Home from "./Pages/Home";
 import Students from "./Pages/Students";
 import Marks from "./Pages/Marks";
+import Footer from "./components/Footer";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                 <Route path="/marks" element={<Marks />} />
                 <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
+            <Footer />
         </div>
     );
 }
